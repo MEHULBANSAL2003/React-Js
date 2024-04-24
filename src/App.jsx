@@ -1,11 +1,12 @@
 import './App.css'
 //importing title component..!!
-import Title from "./Title.jsx"
+//import Title from "./Title.jsx"
+import ProductTab  from './ProductTab.jsx';
 
 
-function Description(){
-  return <h3>I am the description</h3>
-}
+// function Description(){
+//   return <h3>I am the description</h3>
+// }
 
 function App() {  // this is our app component..!!
  
@@ -14,11 +15,7 @@ function App() {  // this is our app component..!!
 
 return( 
 <>
-<Title/>
-<Description/>
-<Title></Title>
-<Description></Description>
-
+ <ProductTab/>
 </>
  
 );
