@@ -1,9 +1,7 @@
 import './App.css'
+//importing title component..!!
+import Title from "./Title.jsx"
 
-//creating 1st component..
-function Title(){
-  return <h1>I am the title</h1>
-}
 
 function Description(){
   return <h3>I am the description</h3>
