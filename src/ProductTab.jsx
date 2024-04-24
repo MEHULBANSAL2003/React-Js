@@ -1,12 +1,14 @@
 import Product from "./Product.jsx"
 function ProductTab(){
+    let options=["hi-tech","durable","fast"];
+ 
 
 return (
     <>
-    <Product title="phone" price="20000"/>
+    <Product title="phone" price={20000} features={options} />
     <Product title="laptop" price={50000}/>  
     {/* {2000} here price is treated as number..!! */}
-    <Product title="pen"/>
+    <Product title="pen" price={10}/>
     </>
 
 );
