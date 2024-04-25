@@ -16,13 +16,13 @@ return (
 
 }
 
-// Product.propTypes = {
-//     title: PropTypes.string.isRequired, // Require 'title' prop as a string
-//     price: PropTypes.number, // Allow 'price' prop as a number, but it's optional
-//     features:PropTypes.array,
-//     features2:PropTypes.object
+Product.propTypes = {
+    title: PropTypes.string.isRequired, // Require 'title' prop as a string
+    price: PropTypes.number, // Allow 'price' prop as a number, but it's optional
+    features:PropTypes.array,
+    
  
-//   };
+  };
 
 
 
