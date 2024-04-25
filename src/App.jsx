@@ -2,6 +2,7 @@ import './App.css'
 //importing title component..!!
 //import Title from "./Title.jsx"
 import ProductTab  from './ProductTab.jsx';
+import MsgBox from './MsgBox.jsx';
 
 
 // function Description(){
@@ -15,6 +16,8 @@ function App() {  // this is our app component..!!
 
 return( 
 <>
+ <MsgBox username="Mehul" textColor="yellow"/>
+ <MsgBox username="bansal" textColor="blue"/>
  <ProductTab/>
 </>
  
