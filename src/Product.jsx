@@ -7,7 +7,7 @@ function Product({title,price,features=[]}){  // props as arguement with default
   const list = features.map((feature, index) => <li key={index}>{feature}</li>);
 
   //let discount=(price>30000)?"Discount: 5%":"";
-   let style={backgroundColor:"pink"};
+   let style={backgroundColor:price>30000?"pink":""};
 //console.log(list)
 return (
 <div className="Product" style={style}>
