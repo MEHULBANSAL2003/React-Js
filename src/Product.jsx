@@ -3,12 +3,15 @@ import "./Product.css";
 import PropTypes from "prop-types";
 
 
-function Product({title,price,features}){  // props as arguement with default values..!!
+function Product({title,price,features=[]}){  // props as arguement with default values..!!
+  const list = features.map((feature, index) => <li key={index}>{feature}</li>);
+
+//console.log(list)
 return (
 <div className="Product">
-    <h3>{title}</h3>
+    <h3>{title}</h3> 
     <h5>Price:{price}</h5>
-    <h5>Features:{features}</h5>
+    <p>{list}</p>
 
 </div>
 
